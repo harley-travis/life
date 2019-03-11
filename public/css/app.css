@@ -1,0 +1,144 @@
+body {
+  background-color: #eee;
+}
+
+.card-spacing {
+  background:#fff!important;
+}
+
+.mdl-textfield {
+  width: 100% !important;
+}
+
+.avatar {
+  width: 85px;
+  height: 80px;
+  border-radius: 50%;
+  background-position: top center;
+  background-size: cover;
+}
+
+.avatar-lg {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.empty {
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  color: #afabab;
+  text-transform: uppercase;
+}
+
+.settings-body {
+  margin-bottom: 50px !important;
+}
+
+h2.mdl-card__title-text a {
+  color: rgb(103,58,183);
+  text-decoration: none;
+}
+
+.add-btn {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  z-index: 999999999999999999;
+}
+.card-spacing {
+  margin: 15px;
+  
+}
+
+.overview-card {
+  height: 130px;
+  overflow: hidden;
+}
+
+.mdl-card__supporting-text {
+  padding: 0 16px !important; 
+}
+
+.demo-drawer-header {
+box-sizing: border-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+-webkit-justify-content: flex-end;
+-ms-flex-pack: end;
+justify-content: flex-end;
+padding: 16px;
+height: 151px;
+background:#eee;
+}
+
+.profile-section{
+
+background-image: url(https://i.imgur.com/vfh0Tl7.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+  -moz-box-shadow:    inset 0 0 10px #000000;
+-webkit-box-shadow: inset 0 0 10px #000000;
+box-shadow:         inset 0 0 10px #000000;
+
+}
+.demo-avatar-dropdown {
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+position: relative;
+-webkit-flex-direction: row;
+-ms-flex-direction: row;
+flex-direction: row;
+-webkit-align-items: center;
+-ms-flex-align: center;
+align-items: center;
+width: 100%;
+
+}
+
+
+/* login css */
+.my-snack-wrapper {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.my-snack-container {
+  background: #323232;
+  color: white;
+  text-align: center;
+  width: 35%;
+  max-width: 300px;
+  margin: 0 auto;
+  border-radius: 5px 5px 0 0;
+}
+
+.my-snack {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.sidebar-footer {
+  position: fixed;
+  bottom: 0;
+  list-style: none;
+}
+
+.sidebar-footer ul {
+  list-style: none;
+  padding: 0 15px;
+}
